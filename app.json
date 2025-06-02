@@ -1,0 +1,23 @@
+{
+  "name": "RUSH-X",
+  "description": "DEVELOPED BY RUSH X ❞",
+  "logo": "https://ibb.co/rGrgR9ph.jpg",
+  "keywords": ["rushx", "bot", "whatsapp bot", "multi device", "rush-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": ""
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
